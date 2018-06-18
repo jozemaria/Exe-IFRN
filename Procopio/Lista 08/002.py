@@ -24,10 +24,11 @@ while True:
     lin = int(input('Digite a quant de linhas: '))
     col = int(input('Digite a quant de colunas: '))
     if lin == col:
-        I = verificar_Matriz(lin,col)
-        if I == True:
-            print('A Matriz é identidade')
-        else:
-            print('A Matriz não é identidade')
+        break
+I = verificar_Matriz(lin,col)
+if I == True:
+    print('A Matriz é identidade')
+else:
+    print('A Matriz não é identidade')
             
-    print()
+

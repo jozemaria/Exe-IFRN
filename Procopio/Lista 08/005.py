@@ -8,9 +8,12 @@ def Verif_Nula(m,l,c):
     return N
 
 M = []
-L = int(input('Qtd de linhas '))
-C = int(input('Qtd de colunas '))
-
+while
+    L = int(input('Qtd de linhas '))
+    C = int(input('Qtd de colunas '))
+    if L==C:
+        break
+    
 for i in range(L):
     A = []
     for j in range(C):
