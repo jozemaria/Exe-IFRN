@@ -1,0 +1,6 @@
+sist=int(input('Digite quantas  horas o Analista de Sistemas trabalhou: '))
+bandado=int(input('Digite quantas  horas o Analista de Banco de Dados trabalhou: '))
+Prog=int(input('Digite quantas  horas o Programador trabalhou: '))
+print('O analista de sistemas recebeu R$',sist*80.00))
+print('O analista de banco de dados recebeu R$',bandado*90.00))
+print('O prgramador recebeu R$',Prog*50.00))
