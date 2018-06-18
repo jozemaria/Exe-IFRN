@@ -10,8 +10,6 @@ def retorna_elemento_central_lista(a,b):
     Cent = b[int(p)]
     return Cent
 
-
-
 def calcula_fatorial(c):
     S=1
     for i in range(1,c+1):
@@ -24,6 +22,7 @@ while True:
         X = carrega_lista(N)
         Y = retorna_elemento_central_lista(N,X)
         Z = calcula_fatorial(Y)
+        
         print()
         print(f'O fatorial de {Y} é {Z}')
         print()
